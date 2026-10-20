@@ -26,3 +26,15 @@
 git clone [https://github.com/nerongnyr/261020_bucheon_chatbot_nyr.git](https://github.com/nerongnyr/261020_bucheon_chatbot_nyr.git)
 cd 261020_bucheon_chatbot_nyr
 pip install -r requirements.txt
+```
+
+### 2. 환경변수 설정 (`.env`)
+프로젝트 루트 폴더에 `.env` 파일을 생성하고 Groq API 키를 입력합니다.
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### 3. 챗봇 실행
+```bash
+python v07_05_bucheon_chatbot_nyr.py
+```
